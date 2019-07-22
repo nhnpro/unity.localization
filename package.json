@@ -1,0 +1,33 @@
+{
+  "name": "com.unity.localization",
+  "displayName": "Localization",
+  "version": "0.2.5-preview",
+  "unity": "2018.3",
+  "description": "Preview of player localization system. Provides tools for localizing your built application.",
+  "keywords": [
+    "localization",
+    "locale",
+    "language"
+  ],
+  "category": "",
+  "dependencies": {
+    "com.unity.addressables": "0.6.7-preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cds.internal.unity3d.com/upm-packages/Localization/upm-package-localization.git",
+    "revision": "09d8ae20b53b8d0bad53d67196d8d402e640d7e6"
+  },
+  "samples": [
+    {
+      "displayName": "Simple Language Selection Menu Example",
+      "description": "A simple language/locale selection menu example.",
+      "path": "Samples~/Scenes/Simple Language Selection Menu"
+    },
+    {
+      "displayName": "Scripting Samples",
+      "description": "Assorted examples of using Localization in scripts.",
+      "path": "Samples~/Scripts"
+    }
+  ]
+}
